@@ -1,56 +1,442 @@
-# SITE CONFIGURATION
-baseurl: "/sp1cy.dev"
-url: "https://sp1cyy.github.io"
+<!doctype html>
+<!--[if lt IE 7]><html lang="en-GB" class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html lang="en-GB" class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html lang="en-GB" class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-GB" class="no-js"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Website design for arts and culture organisations &bull; Chaptr Studio</title>
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="pingback" href="https://chaptr.studio/xmlrpc.php">
+<link rel="apple-touch-icon" sizes="180x180" href="https://chaptr.studio/wp-content/themes/chaptr/library/images/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://chaptr.studio/wp-content/themes/chaptr/library/images/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://chaptr.studio/wp-content/themes/chaptr/library/images/favicons/favicon-16x16.png">
+<link rel="manifest" href="https://chaptr.studio/wp-content/themes/chaptr/library/images/favicons/site.webmanifest">
+<link rel="mask-icon" href="https://chaptr.studio/wp-content/themes/chaptr/library/images/favicons/safari-pinned-tab.svg" color="#0000ff">
+<link rel="shortcut icon" href="https://chaptr.studio/wp-content/themes/chaptr/library/images/favicons/favicon.ico">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-config" content="https://chaptr.studio/wp-content/themes/chaptr/library/images/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
-# THEME-SPECIFIC CONFIGURATION
-title: Type on Strap                                    # site's title
-description: "primera web de sp1cy.dev (en desarollo)"      # used by search engines
-avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
-favicon: assets/favicon.ico                             # Icon displayed in the tab
+<meta name="description" content="We are Chaptr. We design impactful websites and deliver strategic digital marketing solutions for creative arts and culture brands." />
+<link rel="canonical" href="https://chaptr.studio/" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Website design for arts and culture organisations &bull; Chaptr Studio" />
+<meta property="og:description" content="We are Chaptr. We design impactful websites and deliver strategic digital marketing solutions for creative arts and culture brands." />
+<meta property="og:url" content="https://chaptr.studio/" />
+<meta property="og:site_name" content="Chaptr" />
+<meta property="article:publisher" content="https://facebook.com/chaptrstudio/" />
+<meta property="article:modified_time" content="2022-01-31T11:49:00+00:00" />
+<meta property="og:image" content="https://chaptr.studio/wp-content/uploads/2019/04/OG.png" />
+<meta property="og:image:width" content="2236" />
+<meta property="og:image:height" content="1676" />
+<meta property="og:image:type" content="image/png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://chaptr.studio/wp-content/uploads/2019/04/OG.png" />
+<meta name="twitter:site" content="@chaptrstudio" />
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://chaptr.studio/#organization","name":"Chaptr","url":"https://chaptr.studio/","sameAs":["https://facebook.com/chaptrstudio/","http://instagram.com/chaptrstudio/","https://www.linkedin.com/company/chaptr./","https://twitter.com/chaptrstudio"],"logo":{"@type":"ImageObject","@id":"https://chaptr.studio/#logo","inLanguage":"en-GB","url":"https://chaptr.studio/wp-content/uploads/2019/04/HF000533-R1-05-6-ret-1700x1366.jpg","contentUrl":"https://chaptr.studio/wp-content/uploads/2019/04/HF000533-R1-05-6-ret-1700x1366.jpg","width":1700,"height":1366,"caption":"Chaptr"},"image":{"@id":"https://chaptr.studio/#logo"}},{"@type":"WebSite","@id":"https://chaptr.studio/#website","url":"https://chaptr.studio/","name":"Chaptr","description":"Inspiring the Inspirational","publisher":{"@id":"https://chaptr.studio/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://chaptr.studio/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-GB"},{"@type":"ImageObject","@id":"https://chaptr.studio/#primaryimage","inLanguage":"en-GB","url":"https://chaptr.studio/wp-content/uploads/2019/04/OG.png","contentUrl":"https://chaptr.studio/wp-content/uploads/2019/04/OG.png","width":2236,"height":1676},{"@type":"WebPage","@id":"https://chaptr.studio/#webpage","url":"https://chaptr.studio/","name":"Website design for arts and culture organisations &bull; Chaptr Studio","isPartOf":{"@id":"https://chaptr.studio/#website"},"about":{"@id":"https://chaptr.studio/#organization"},"datePublished":"2019-01-21T14:05:37+00:00","dateModified":"2022-01-31T11:49:00+00:00","description":"We are Chaptr. We design impactful websites and deliver strategic digital marketing solutions for creative arts and culture brands.","breadcrumb":{"@id":"https://chaptr.studio/#breadcrumb"},"inLanguage":"en-GB","potentialAction":[{"@type":"ReadAction","target":["https://chaptr.studio/"]}]},{"@type":"BreadcrumbList","@id":"https://chaptr.studio/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]}]}</script>
+<meta name="msvalidate.01" content="28603E8DCC17D43F43D5E0864C8A7CFF" />
+<meta name="google-site-verification" content="WgU5XN32gQ0aUraJwiIFXbohb9adpXA5JCfMif9YrO8" />
 
-# Header and footer text
-header_text: ¿que es la programacion?  # Change Blog header text
-header_feature_image: https://www.freepik.es/vector-premium/desarrollo-software-programacion_4726490.htm
-footer_text: >
-  Powered by <a href="https://www.freepik.es/vector-premium/desarrollo-software-programacion_4726490.htm">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Chaptr &raquo; Feed" href="https://chaptr.studio/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Chaptr &raquo; Comments Feed" href="https://chaptr.studio/comments/feed/" />
+<link rel='stylesheet' id='stylesheet-css' href='https://chaptr.studio/wp-content/themes/chaptr/library/css/style.css' type='text/css' media='all' />
+<script type="09fa79c616bd410be9cc736e-text/javascript" src='https://chaptr.studio/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></script>
+<script type="09fa79c616bd410be9cc736e-text/javascript" src='https://chaptr.studio/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="https://chaptr.studio/wp-json/" /><link rel="alternate" type="application/json" href="https://chaptr.studio/wp-json/wp/v2/pages/22" /><link rel='shortlink' href='https://chaptr.studio/' />
+<link rel="alternate" type="application/json+oembed" href="https://chaptr.studio/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchaptr.studio%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://chaptr.studio/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchaptr.studio%2F&#038;format=xml" />
+<meta name="generator" content="Site Kit by Google 1.48.1" /><link rel="icon" href="https://chaptr.studio/wp-content/uploads/2021/07/cropped-chaptr-site-icon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://chaptr.studio/wp-content/uploads/2021/07/cropped-chaptr-site-icon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://chaptr.studio/wp-content/uploads/2021/07/cropped-chaptr-site-icon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://chaptr.studio/wp-content/uploads/2021/07/cropped-chaptr-site-icon-270x270.png" />
+<link rel="preload" href="/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" as="script"><link rel="preload" href="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" as="script"><link rel="preload" href="/wp-content/themes/chaptr/library/css/style.css?ver=5.8.3" as="style">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87113940-1" type="09fa79c616bd410be9cc736e-text/javascript"></script>
+<script type="09fa79c616bd410be9cc736e-text/javascript">
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
 
-# Blog
-excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
-post_navigation: true
-color_image: https://www.freepik.es/vector-premium/desarrollo-software-programacion_4726490.htm                   # A bit transparent for color posts.
-
-# Features
-# More in the _data folder for share buttons, author and language
-# For layout customization, go to the "_sass > base" folder, and check "_variables.scss"
-katex: true                                             # Enable if using math markup
-mermaid: true                                           # Enable mermaid-js for sequence and diagrams
-google_analytics:                                       # Tracking ID, e.g. "UA-000000-01"
-cookie_consent: false                                   # To respect the usage of cookies
-color_theme: auto                                       # auto, dark or light
-
-# Comments
-comments:
-  disqus_shortname:                                     # Your discus shortname for comments
-  cusdis_app_id:                                        # Your cusdis data-app-id
-  utterances:                                           # Enable by filling below information. For more info, go to https://utteranc.es
-    repo:                                               # your public comments repository (e.g. owner/repo)
-    issue-term:                                         # Issue term (e.g. "comment" consider issues with this word in the title as comments)
-
-# PAGINATION
-paginate: 5
-paginate_path: "/blog/page:num"
-
-# PORTFOLIO
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:name
-
-# BUILD SETTINGS
-sass:
-  style: compressed
-plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
-exclude: [".jekyll-cache", ".idea", "vendor/*", "assets/node_modules/*"]
-
-# theme: type-on-strap                                  # if using the theme as a jekyll theme gem
-remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
+		  gtag('config', 'UA-87113940-1');
+		</script>
+<script type="application/ld+json">
+		{
+		  "@context": "http://schema.org",
+		  "@type": "ProfessionalService",
+		  "name": "Chaptr",
+		  "image": "https://chaptr.studio/wp-content/uploads/2019/01/Studio-2-1700x1366.jpg",
+		  "@id": "",
+		  "url": "https://chaptr.studio",
+		  "telephone": "02381780164",
+		  "address": {
+		    "@type": "PostalAddress",
+		    "streetAddress": "20a Carlton Place",
+		    "addressLocality": "Southampton",
+		    "postalCode": "SO15 2DY",
+		    "addressCountry": "GB"
+		  },
+		  "geo": {
+		    "@type": "GeoCoordinates",
+		    "latitude": 50.9127283,
+		    "longitude": -1.4052288999999973
+		  },
+		  "openingHoursSpecification": {
+		    "@type": "OpeningHoursSpecification",
+		    "dayOfWeek": [
+		      "Monday",
+		      "Tuesday",
+		      "Wednesday",
+		      "Thursday",
+		      "Friday"
+		    ],
+		    "opens": "09:00",
+		    "closes": "17:00"
+		  },
+		  "sameAs": [
+		    "https://www.facebook.com/chaptrstudio",
+		    "https://twitter.com/chaptrstudio",
+		    "https://instagram.com/chaptrstudio",
+		    "https://www.linkedin.com/company/chaptr."
+		  ]
+		}
+		</script>
+</head>
+<body class="home page-template page-template-home page-template-home-php page page-id-22" itemscope itemtype="http://schema.org/WebPage">
+<div class="loading">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178.42 48.26"><title>Chaptr</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><circle cx="13.02" cy="24.71" r="13.02" /><path d="M46.11,37.7A12.86,12.86,0,1,1,57.65,19.34l-4,1.87a8.47,8.47,0,1,0,0,7.27l4,1.87A12.83,12.83,0,0,1,46.11,37.7Z" /><path d="M62.48,0h4.46V7.71c0,1.67,0,5.06-.2,8.31h.2c1.42-2.84,4.06-4.26,7.71-4.26,4.86,0,9.12,2.64,9.12,10.34v15H79.31V22.71c0-5.27-2.23-7.1-5.68-7.1-3.75,0-6.69,3.3-6.69,8.57V37.1H62.48Z" fill="#1d1d1b" /><path d="M98.07,23.22l4.86-.82c2.64-.45,3.25-.76,3.25-1.92,0-3-1.78-5.07-5.27-5.07s-5.48,1.93-5.68,4.66H91c.2-4.66,3.7-8.31,9.94-8.31,6.48,0,9.73,3.45,9.73,9.12V37.1h-4.26V33.81h-.2c-1.42,2.59-4.31,3.9-7.91,3.9C93,37.71,90,35,90,30.82S92.29,24.23,98.07,23.22Zm8.11,1.16a4.31,4.31,0,0,1-2.64,1.17l-4.66.81c-3.25.56-4.46,1.93-4.46,4.05s1.52,3.65,4.66,3.65c3.85,0,7.1-2.43,7.1-7.3Z" fill="#1d1d1b" /><path d="M121.68,48.26h-4.47V12.37h4.26v3.85h.21c1.62-3.24,4.86-4.46,8.31-4.46,6.28,0,10.95,4.66,10.95,12.77s-5.07,13.18-11.36,13.18c-3.44,0-6.28-1.21-7.9-4.46h-.21c.21,3.25.21,6.64.21,8.32ZM129,15.61c-4,0-7.14,3.09-7.29,8.72v.41c0,5.88,3.24,9.12,7.29,9.12s7.3-3.45,7.3-9.33S133,15.61,129,15.61Z" fill="#1d1d1b" /><path d="M147.72,16h-4.67V12.37h4.67V4.87h4.46v7.5h6.49V16h-6.49V29.6c0,2.64,1,3.65,3.44,3.65h3V37.1H155q-7.31,0-7.3-7.29Z" fill="#1d1d1b" /><path d="M164,12.37h4.25V16h.16A6.77,6.77,0,0,1,175,11.76a5.79,5.79,0,0,1,3.45,1L177,16.83a6.63,6.63,0,0,0-3-.81c-3.7,0-5.47,3.85-5.47,8.16V37.1H164Z" fill="#1d1d1b" /></g></g></svg> </div>
+<img class="image-follow" src="" alt="Holding image">
+<main id="main">
+<nav class="global-menu">
+<div class="wrap">
+<ul id="menu-global-menu" class="global-menu__menu"><li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="https://chaptr.studio/about/">About</a></li>
+<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a href="https://chaptr.studio/projects/">Projects</a></li>
+<li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a href="https://chaptr.studio/insights/">Insights</a></li>
+<li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a href="https://chaptr.studio/contact/">Contact</a></li>
+</ul> <footer>
+<ul class="global-menu__secondary">
+<li><a href="https://instagram.com/chaptrstudio" target="_blank">Instagram</a></li>
+<li><a href="https://twitter.com/chaptrstudio" target="_blank">Twitter</a></li>
+<li><a href="https://www.linkedin.com/company/chaptr." target="_blank">LinkedIn</a></li>
+</ul>
+<ul id="menu-footer-menu" class="global-menu__secondary"><li id="menu-item-7143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7143"><a href="https://chaptr.studio/careers/">Careers</a></li>
+<li id="menu-item-6850" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6850"><a href="https://chaptr.studio/terms-of-business/">Terms of Business</a></li>
+<li id="menu-item-6851" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-6851"><a href="https://chaptr.studio/privacy-policy/">Privacy Policy</a></li>
+</ul> <span class="col">
+<a href="tel:02381780164">02381 780 164</a>
+<a href="/cdn-cgi/l/email-protection#f49d9a929bb4979c95848086da878081909d9b"><span class="__cf_email__" data-cfemail="432a2d252c03202b223337316d303736272a2c">[email&#160;protected]</span></a>
+</span>
+</footer>
+</div>
+</nav>
+<header class="global-header">
+<div class="wrap">
+<span class="global-header__logo">
+<a href="https://chaptr.studio" class="full-link"></a>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.18 25.19"><title>C</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><circle cx="12.59" cy="12.59" r="12.59" /><path d="M45,25A12.44,12.44,0,1,1,56.18,7.27L52.33,9.08a8.19,8.19,0,1,0,0,7l3.85,1.81A12.42,12.42,0,0,1,45,25Z" /></g></g></svg> </span>
+<nav>
+<figure class="global-header__menu-toggle hover">Menu</figure>
+</nav>
+</div>
+</header>
+<main class="body-container">
+<figure class="cursor">
+<span class="inner"></span>
+</figure>
+<main class="content-container">
+<section class="section--hero section section--hero--full" data-header-style="white">
+<a class="next"></a>
+<a class="prev"></a>
+<div class="section--hero__slider section--hero__slider--images">
+<figure class="os-animation image-container image-container--abs " data-os-animation="fadeIn">
+<picture style="background-image: url(https://chaptr.studio/wp-content/uploads/2020/10/jhg-1700x1135.jpg)"></picture>
+</figure>
+<figure class="os-animation image-container image-container--abs " data-os-animation="fadeIn">
+<picture style="background-image: url(https://chaptr.studio/wp-content/uploads/2022/01/Dark@2x-1700x1133.png)"></picture>
+</figure>
+<figure class="os-animation image-container image-container--abs " data-os-animation="fadeIn">
+<picture style="background-image: url(https://chaptr.studio/wp-content/uploads/2021/07/southampton-culture-centre-1.jpg)"></picture>
+</figure>
+</div>
+<div class="section--hero__slider section--hero__slider--info">
+<div class="os-animation section--hero__slider--info__item is-selected" data-link="https://chaptr.studio/project/john-hansard-gallery/" data-index="1">
+<a href="https://chaptr.studio/project/john-hansard-gallery/"><h2 class="os-animation"><span class="letters">John Hansard Gallery</span></h2></a>
+<footer>
+<h4 class="caption">
+The digital home of physical art. </h4>
+</footer>
+</div>
+<div class="os-animation section--hero__slider--info__item " data-link="https://chaptr.studio/project/art-is-essential/" data-index="2">
+<a href="https://chaptr.studio/project/art-is-essential/"><h2 class="os-animation"><span class="letters">Art Is Essential</span></h2></a>
+<footer>
+<h4 class="caption">
+Helping CVAN tell the country that Art is Essential.<br />
+</h4>
+</footer>
+</div>
+<div class="os-animation section--hero__slider--info__item " data-link="https://chaptr.studio/project/southampton-city-of-culture/" data-index="3">
+<a href="https://chaptr.studio/project/southampton-city-of-culture/"><h2 class="os-animation"><span class="letters">Southampton's UK City of Culture Bid</span></h2></a>
+<footer>
+<h4 class="caption">
+Supporting Southampton's bid to secure a place on the map<br />
+</h4>
+</footer>
+</div>
+</div>
+<nav class="section--hero__nav os-animation" data-os-animation="fadeIn">
+<span class="counter">
+<span class="index">
+0
+<span class="is-selected">1</span>
+<span class="">2</span>
+<span class="">3</span>
+</span>
+<span>
+/ 03 </span>
+</span>
+<a href="https://chaptr.studio/project/southampton-city-of-culture/" class="button button--white">VIEW PROJECT</a>
+</nav>
+</section>
+<section class="section section--introduction section--padding section--padding--extra" data-header-style="black">
+<div class="wrap">
+<div class="grid grid--no-gap">
+<div class="grid__left">
+</div>
+<div class="grid__right">
+<h2 class="os-animation" data-os-animation="fadeInUp">We are Chaptr. We design and build impactful websites and create strategic digital marketing solutions that inspire people to think, feel, or do. We specialise in website design and digital marketing for arts and culture. We help brands engaged in culture and the creative arts to thrive in a digitally connected world. </h2>
+<a href="https://chaptr.studio/about/" class="button os-animation" data-os-animation="fadeInUp">More on us</a>
+</div>
+</div>
+</div>
+</section>
+<section class="section section--padding--bottom--extra" data-header-style="hidden">
+<div class="wrap no-mobile cf">
+<div class="image-gallery">
+<div class="image-gallery__col">
+<figure class="image-container image-move preserve-aspect" data-height="1333" data-width="2000">
+<picture class="os-animation" data-os-animation="fadeIn"><img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://chaptr.studio/wp-content/uploads/2019/04/5F4A4873ret-2-1-1700x1133.jpg" alt="Hard at work at web design in our Southampton studio"></picture>
+</figure>
+<div class="now-playing">
+<picture>
+<img class="b-lazy" data-src="https://i.scdn.co/image/ab67616d00004851eeb5fd5ce92d8a0262921a7a" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Dizzy by Title Fight">
+</picture>
+<span class="now-playing__track">
+<span class="label">We're listening to</span><a href="https://open.spotify.com/track/1TJjgZ1iQOErt8CRKdVtaf" target="_blank">Dizzy by Title Fight</a>
+</span>
+<svg class="sound">
+<g>
+<path class="wave" d="M-5.6,10C-1.7999999999999998,10 -1.7999999999999998,2 2,2 C5.8,2 5.8,10 9.6,10 C13.399999999999999,10 13.399999999999999,2 17.2,2 C21,2 20.999999999999996,10 24.799999999999997,10 C28.599999999999998,10 28.599999999999998,2 32.4,2 C36.199999999999996,2 36.2,10 40,10 C43.8,10 43.800000000000004,2 47.6,2 C51.4,2 51.400000000000006,10 55.2,10 C59,10 59.00000000000001,2 62.800000000000004,2 C66.60000000000001,2 66.60000000000001,10 70.4,10 C74.2,10 74.2,2 78,2"></path>
+</g>
+</svg>
+</div>
+</div>
+<div class="image-gallery__col">
+<figure class="image-container image-move preserve-aspect" data-height="1607" data-width="2000">
+<picture class="os-animation" data-os-animation="fadeIn"><img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://chaptr.studio/wp-content/uploads/2019/01/Studio-2-1700x1366.jpg" alt="A member of the team in our web design studio in Southampton."></picture>
+</figure>
+</div>
+<div class="image-gallery__col">
+<figure class="image-container image-move preserve-aspect" data-height="1607" data-width="2000">
+<picture class="os-animation" data-os-animation="fadeIn"><img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://chaptr.studio/wp-content/uploads/2019/01/Studio-4-1-1700x1366.jpg" alt="The team hard at work in our web design studio in Southampton."></picture>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section class="section section--scroll section--padding" data-header-style="hidden">
+<div class="trigger"></div>
+<div class="wrap cf">
+<div class="section--scroll__grid">
+<div class="section--scroll__grid__left display-desktop">
+<ul class="animation-delay">
+<li class="os-animation active" data-os-animation="fadeInUpSmall"><a href="#list--1" class="scroll">Brand</a></li>
+<li class="os-animation " data-os-animation="fadeInUpSmall"><a href="#list--2" class="scroll">Creative</a></li>
+<li class="os-animation " data-os-animation="fadeInUpSmall"><a href="#list--3" class="scroll">Development</a></li>
+<li class="os-animation " data-os-animation="fadeInUpSmall"><a href="#list--4" class="scroll">Marketing</a></li>
+</ul>
+</div>
+<div class="section--scroll__grid__right">
+<ul class="scroll-breakdown large" id="list--1">
+<li class="h2 display-mobile">Brand</li>
+<li>Strategy</li>
+<li>Logo & Identity</li>
+<li>Visual language</li>
+<li>Guidelines</li>
+<li>Design Systems</li>
+</ul>
+<ul class="scroll-breakdown large" id="list--2">
+<li class="h2 display-mobile">Creative</li>
+<li>UI & UX</li>
+<li>Web Design</li>
+<li>Print Design</li>
+<li>Consulting</li>
+</ul>
+<ul class="scroll-breakdown large" id="list--3">
+<li class="h2 display-mobile">Development</li>
+<li>Front End</li>
+<li>Back End</li>
+<li>Bespoke Integrations</li>
+<li>Ecommerce</li>
+<li>WordPress</li>
+<li>Shopify</li>
+</ul>
+<ul class="scroll-breakdown large" id="list--4">
+<li class="h2 display-mobile">Marketing</li>
+<li>Strategy</li>
+<li>SEO </li>
+<li>PPC</li>
+<li>Social Media</li>
+<li>Inbound Marketing</li>
+<li>Copywriting</li>
+<li>Visual Content</li>
+<li>Campaigns</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section class="section section--padding section--masonry section--padding--top--extra section--updates" data-header-style="hidden">
+<div class="wrap cf">
+<div class="section--masonry__grid grid--updates section--masonry__grid--all section--masonry__grid--masonry">
+<div class="gutter"></div>
+<article class="section--grid__grid__item section--masonry__grid__item animation-delay os-animation" data-os-animation="fadeInUp">
+<a href="https://chaptr.studio/coffee-cake-and-culture-1-chichester-cathedral/" class="full-link"></a>
+<div class="section--grid__grid__content" id="section--grid__grid__content">
+<span class="tag">Articles</span>
+<figure class="image-container image-container--static preserve-aspect" data-height="533" data-width="800">
+<img class="os-animation b-lazy" data-os-animation="fadeIn" data-src="https://chaptr.studio/wp-content/uploads/2022/01/photo-1462270428804-ec11d0fea5d3-800x533.jpeg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Coffee, Cake and Culture #1 &#8211; Chichester Cathedral">
+</figure>
+<header>
+Coffee, Cake and Culture #1 &#8211; Chichester Cathedral </header>
+<time>
+6 days ago </time>
+</div>
+</article>
+<article class="section--grid__grid__item section--masonry__grid__item animation-delay os-animation" data-os-animation="fadeInUp">
+<a href="https://chaptr.studio/uk-city-of-culture-2025-southampton-make-longlist/" class="full-link"></a>
+<div class="section--grid__grid__content" id="section--grid__grid__content">
+<span class="tag">Articles</span>
+<figure class="image-container image-container--static preserve-aspect" data-height="412" data-width="800">
+<img class="os-animation b-lazy" data-os-animation="fadeIn" data-src="https://chaptr.studio/wp-content/uploads/2021/10/colin-osborne-7w4nbbYLJKY-unsplash-800x412.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="UK City of Culture 2025: Southampton make longlist">
+</figure>
+<header>
+UK City of Culture 2025: Southampton make longlist </header>
+<time>
+4 months ago </time>
+</div>
+</article>
+<article class="section--grid__grid__item section--masonry__grid__item animation-delay os-animation" data-os-animation="fadeInUp">
+<a href="https://chaptr.studio/digital-disruption-in-art-and-culture-websites-making-a-big-impact/" class="full-link"></a>
+<div class="section--grid__grid__content" id="section--grid__grid__content">
+<span class="tag">Articles</span>
+<figure class="image-container image-container--static preserve-aspect" data-height="533" data-width="800">
+<img class="os-animation b-lazy" data-os-animation="fadeIn" data-src="https://chaptr.studio/wp-content/uploads/2021/09/yannis-papanastasopoulos-yWF2LLan-_o-unsplash-800x533.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Digital disruption in art and culture: websites making a big impact">
+</figure>
+<header>
+Digital disruption in art and culture: websites making a big impact </header>
+<time>
+4 months ago </time>
+</div>
+</article>
+<article class="section--grid__grid__item section--masonry__grid__item animation-delay os-animation" data-os-animation="fadeInUp">
+<a href="https://chaptr.studio/festival-branding-key-considerations/" class="full-link"></a>
+<div class="section--grid__grid__content" id="section--grid__grid__content">
+<span class="tag">Articles</span>
+<figure class="image-container image-container--static preserve-aspect" data-height="533" data-width="800">
+<img class="os-animation b-lazy" data-os-animation="fadeIn" data-src="https://chaptr.studio/wp-content/uploads/2021/08/fundamentals-of-festival-branding-1-800x533.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Festival branding: key considerations">
+</figure>
+<header>
+Festival branding: key considerations </header>
+<time>
+6 months ago </time>
+</div>
+</article>
+<article class="section--grid__grid__item section--masonry__grid__item animation-delay os-animation" data-os-animation="fadeInUp">
+<a href="https://chaptr.studio/measurefest-2021-where-data-science-meets-human-experience/" class="full-link"></a>
+<div class="section--grid__grid__content" id="section--grid__grid__content">
+<span class="tag">Articles</span>
+<figure class="image-container image-container--static preserve-aspect" data-height="600" data-width="800">
+<img class="os-animation b-lazy" data-os-animation="fadeIn" data-src="https://chaptr.studio/wp-content/uploads/2021/07/measurefest-2021-a-celebration-of-data-science-800x600.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="MeasureFest 2021: Where data science meets human experience">
+</figure>
+<header>
+MeasureFest 2021: Where data science meets human experience </header>
+<time>
+7 months ago </time>
+</div>
+</article>
+<article class="section--grid__grid__item section--masonry__grid__item animation-delay os-animation" data-os-animation="fadeInUp">
+<a href="https://chaptr.studio/digital-marketing-for-uk-musicians/" class="full-link"></a>
+<div class="section--grid__grid__content" id="section--grid__grid__content">
+<span class="tag">Articles</span>
+<figure class="image-container image-container--static preserve-aspect" data-height="533" data-width="800">
+<img class="os-animation b-lazy" data-os-animation="fadeIn" data-src="https://chaptr.studio/wp-content/uploads/2021/06/digital-marketing-for-uk-musicians-800x533.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Digital marketing for UK musicians">
+</figure>
+<header>
+Digital marketing for UK musicians </header>
+<time>
+7 months ago </time>
+</div>
+</article>
+</div>
+</div>
+</section>
+<footer class="global-footer section section--padding" data-header-style="white">
+<div class="wrap">
+<span class="animation-delay h1">
+<h1 class="os-animation" data-os-animation="fadeInUp">Got a project?</h1>
+<figure class="cta-buttons os-animation" data-os-animation="fadeInUp">
+<a data-href="mailto:info@chaptr.studio" data-copy="info@chaptr.studio" href="/cdn-cgi/l/email-protection#8be2e5ede4cbe8e3eafbfff9a5f8fffeefe2e4" class="cta-buttons__button clipboard">
+Email
+<span class="cta-buttons__button__hover">
+<span class="__cf_email__" data-cfemail="8fe6e1e9e0cfece7eefffbfda1fcfbfaebe6e0">[email&#160;protected]</span><span class="tooltip">Copied! Click again to email.</span>
+</span>
+</a>
+<a data-href="tel:02381780164" data-copy="02381780164" href="tel:02381780164" class="cta-buttons__button clipboard">
+Call
+<span class="cta-buttons__button__hover">
+02381 780 164<span class="tooltip">Copied! Click again to call.</span>
+</span>
+</a>
+</figure>
+</span>
+</div>
+<footer class="global-footer__grid">
+<ul class="global-menu__secondary">
+<li><a href="tel:">02381 780 164</a></li>
+<li><a href="/cdn-cgi/l/email-protection#92fbfcf4fdd2f1faf3e2e6e0bce1e6e7f6fbfd"><span class="__cf_email__" data-cfemail="7910171f16391a1118090d0b570a0d0c1d1016">[email&#160;protected]</span></a></li>
+<li>
+<span class="closed">Closed until 9am </span>
+</li>
+</ul>
+<ul class="global-menu__secondary">
+<li><a href="https://instagram.com/chaptrstudio" target="_blank">Instagram</a></li>
+<li><a href="https://twitter.com/chaptrstudio" target="_blank">Twitter</a></li>
+<li><a href="https://www.linkedin.com/company/chaptr." target="_blank">LinkedIn</a></li>
+</ul>
+<ul id="menu-footer-menu-1" class="global-menu__secondary"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7143"><a href="https://chaptr.studio/careers/">Careers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6850"><a href="https://chaptr.studio/terms-of-business/">Terms of Business</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-6851"><a href="https://chaptr.studio/privacy-policy/">Privacy Policy</a></li>
+</ul> <span class="copyright">
+&copy; Chaptr 2022 All Rights Reserved
+</span>
+<a href="https://chaptr.studio" class="global-footer__logo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.18 25.19"><title>C</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><circle cx="12.59" cy="12.59" r="12.59" /><path d="M45,25A12.44,12.44,0,1,1,56.18,7.27L52.33,9.08a8.19,8.19,0,1,0,0,7l3.85,1.81A12.42,12.42,0,0,1,45,25Z" /></g></g></svg> </a>
+</footer>
+</footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="09fa79c616bd410be9cc736e-text/javascript" src='https://chaptr.studio/wp-content/themes/chaptr/library/js/min/app-min.js' id='app-js'></script>
+<div class="cookie-notice">
+<div>
+<p>We use cookies to help improve our website.<br />
+By continuing to use this website, you agree to our use of cookies.</p>
+</div>
+<a href="#" class="button button accept">close</a>
+</div>
+</main>
+</main>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="09fa79c616bd410be9cc736e-|49" defer=""></script></body>
+</html>
